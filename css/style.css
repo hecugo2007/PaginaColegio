@@ -1,0 +1,30 @@
+
+  
+  /* specific boxes */
+  
+  .quienes  {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border: 6px solid rgba(0,0,0,0.5);
+   
+    position:absolute;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   width:70%;
+  }
+
+  .txtQuienes{
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+
+  .textGaleria{
+    margin-top: 20%
+  }
+  
+  
+  
+  
