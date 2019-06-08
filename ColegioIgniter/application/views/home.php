@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="<?php echo base_url();?>css/grayscale.min.css" rel="stylesheet">
-
+  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -258,12 +258,29 @@
     </div>
   </section>
 
+  
+    
+
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
       Copyright &copy; Your Website 2019
     </div>
+
+    <div id="map" ></div>
+
+    <script src = "<?php echo base_url();?>js/localizacion.js"></script>
+    <script src="<?php echo base_url();?>js/main.js"></script> 
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnjuER25ftoeWIryVoM2SeXoHpo3fliso&callback=initMap">
+    </script>
+
+    
   </footer>
+  
+  
+  
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="<?php echo base_url();?>vendor/jquery/jquery.min.js"></script>
